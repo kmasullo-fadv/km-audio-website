@@ -1,0 +1,43 @@
+.bannerDiv {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/tempPT.jpg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerMessageDiv {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#bannerMessage1, #bannerMessage2 {
+    font-size: 70px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#bannerButton {
+    font-size: 30px;
+    padding: 7px 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(218, 142, 0);
+    width: fit-content;
+    margin: auto;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255);
+}
+
+#bannerButton:hover {
+    background-color: orange;
+    box-shadow: 1px 1px 20px 5px rgb(255, 255, 255);
+}
+
+#bannerMessage1{animation: fadeIn ease-in 1s;}
+#bannerMessage2{animation: fadeIn ease-in 2s;}
+#bannerButton{animation: fadeIn ease-in 3s;}

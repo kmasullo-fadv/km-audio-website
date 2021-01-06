@@ -1,0 +1,23 @@
+.testimonials {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-image: url('../img/phones.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonialsH2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+.testimonialDiv {
+    max-width: 500px;
+    margin: 50px auto;
+    font-size: 17px;
+    letter-spacing: 1px;
+}

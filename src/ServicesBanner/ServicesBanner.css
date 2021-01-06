@@ -1,0 +1,51 @@
+.servicesBannerDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/knobss.jpg');
+    height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+.servicesList {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.servicesTopH2, .servicesTopH3 {
+    margin: 0 auto;
+    color: white;
+    font-weight: lighter;
+}
+
+.servicesTopH2 {
+    font-size: 60px;
+}
+.servicesTopH3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.service {
+    width: 170px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.serviceH3{
+    color: rgb(255, 184, 52);
+    margin: 0;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 17px;
+}

@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+
+#kmAudioLogo {
+    margin: 0;
+    width: 34%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 500px;
+}
+
+.navLink {
+    width: 100%;
+    padding: 5px 2px;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.navLink:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+nav a:link {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px){
+    header {
+        flex-direction: column;
+        padding: 0;
+    }
+    #kmAudioLogo {
+        width: 50%;
+        margin: 0 auto 30px auto;
+    }
+    nav {
+        width: 100%;
+        position: relative;
+    }
+} 
