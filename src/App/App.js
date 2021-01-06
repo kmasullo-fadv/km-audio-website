@@ -6,6 +6,8 @@ import MixBanner from '../MixBanner/MixBanner';
 import HearDifBanner from '../HearDifBanner/HearDifBanner';
 import ServicesBanner from '../ServicesBanner/ServicesBanner';
 import Testimonials from '../Testimonials/Testimonials';
+import Quote from '../Quote/Quote';
+import Contact from '../Contact/Contact'
 
 export default class App extends Component {
   render(){
@@ -16,6 +18,8 @@ export default class App extends Component {
         <Route component={HearDifBanner} exact path='/' />
         <Route component={ServicesBanner} exact path='/' />
         <Route component={Testimonials} exact path='/' />
+        <Route component={Quote} exact path='/' />
+        <Route component={Contact} path='/' />
       </div>
     )
   }

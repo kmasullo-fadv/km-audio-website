@@ -1,0 +1,34 @@
+.quoteDiv {
+    text-align: center;
+    width: 100%;
+    background-image: url('../img/knobss.jpg');
+    height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    letter-spacing: 1px;
+}
+
+.quoteInnerDiv {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.quoteH2 {
+    font-size: 60px;
+    margin: 25px 0;
+    letter-spacing: 2px;
+}
+
+.quoteH3 {
+    font-size: 30px;
+    margin: 15px 0;
+    font-weight: 450;
+}
+
+.quoteP {
+    font-size: 20px;
+    font-weight: 250;
+}

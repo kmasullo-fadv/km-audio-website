@@ -21,7 +21,6 @@
 
 .servicesTopH2, .servicesTopH3 {
     margin: 0 auto;
-    color: white;
     font-weight: lighter;
 }
 
@@ -40,7 +39,6 @@
 }
 
 .serviceH3{
-    color: rgb(255, 184, 52);
     margin: 0;
     font-weight: bolder;
     font-size: 24px;

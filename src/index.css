@@ -10,3 +10,15 @@ html {
   min-height: 100%;
   min-width: 100%;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.yellow {
+  color: rgb(254, 196, 88);
+}
+
+.white {
+  color: white;
+}
