@@ -11,6 +11,10 @@ html {
   min-width: 100%;
 }
 
+.center {
+  text-align: center;
+}
+
 .underline {
   text-decoration: underline;
 }
