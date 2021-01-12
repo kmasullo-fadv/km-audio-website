@@ -2,53 +2,51 @@
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-image: url('../img/condMic.jpg');
-    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100%;
+    text-align: center;
 }
 
 .difInnerDiv {
-    display: flex;
-    flex-direction: row;
+    padding: 20px;
     margin: auto;
-    justify-content: space-between;
+    width: 90%;
+    max-width: 800px;
 }
 
-.difMessageDiv {
-    width: 600px;
-    font-size: 25px;
-    margin-right: 50px;
+.difMessage {
+    font-size: 20px;
 }
 
 #difH2 {
-    font-size: 35px;
-}
-
-.difHearDif {
-    background-color: white;
-    margin: auto;
-    padding: 20px;
-    width: 400px;
-    box-shadow: 1px 1px 8px 1px rgb(189, 189, 189);
+    font-size: 32px;
+    font-weight: 600;
 }
 
 #difHearH2 {
     margin: 0;
-    text-align: center;
     font-size: 40px;
+    font-weight: 100;
 }
 
-.difButtonDiv {
-    width: fit-content;
+.difPlayerDiv {
     margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 8px 1px rgb(189, 189, 189);
+    max-width: 800px;
 }
 
-.difButton {
-    width: 130px;
-    height: 50px;
-    margin: 0 20px;
+.difPlayerDiv p {
+    margin: 0;
+    text-align: left;
+}
+
+.difPlayer {
+    width: 100%;
+    margin-bottom: 10px;
 }

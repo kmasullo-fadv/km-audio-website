@@ -7,13 +7,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
     letter-spacing: 1px;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 .quoteInnerDiv {
     max-width: 1000px;
     margin: auto;
+    padding: 25px;
 }
 
 .quoteH2 {

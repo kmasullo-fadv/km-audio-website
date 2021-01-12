@@ -7,6 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100%;
 }
 
 .bannerMessageDiv {
@@ -20,7 +21,7 @@
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 15px 0;
+    padding-bottom: 15px;
 }
 
 #bannerButton {
@@ -41,3 +42,15 @@
 #bannerMessage1{animation: fadeIn ease-in 1s;}
 #bannerMessage2{animation: fadeIn ease-in 2s;}
 #bannerButton{animation: fadeIn ease-in 3s;}
+
+@media screen and (max-width: 500px) {
+    #bannerMessage1, #bannerMessage2 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #bannerMessage1, #bannerMessage2 {
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+}

@@ -7,17 +7,22 @@ export default class HearDifBanner extends Component {
         return(
             <div className="difBannerDiv">
                 <div className="difInnerDiv">
-                    <div className="difMessageDiv">
                         <h2 id='difH2'>Turn Your Recordings Into Awesome Productions</h2>
                         <p className='difMessage'>Whether your songs were recorded in your bedroom or on a $90,000 console, they need to be mixed. And if you want to take your career anywhere, they have to be mixed WELL.</p>
                         <p className='difMessage'>Utilizing years of experience, professional gear and endless dedication, KM Audio Services will give your songs energy and clarity while maintaining your original vision.</p>
-                    </div>
-                    <div className="difHearDif">
+                    <div className="difPlayerDiv">
                         <h2 id='difHearH2'>Hear the Difference</h2>
-                        <div className="difButtonDiv">
-                            <button className='difButton'>Before</button>
-                            <button className='difButton'>After</button>
-                        </div>
+                        <p>Before:</p>
+
+                        <audio controls className='difPlayer'>
+                            <source src="horse.ogg" type="audio/ogg" />
+                            Your browser does not support the audio tag.
+                        </audio>
+                        <p>After:</p>
+                        <audio controls className='difPlayer'>
+                            <source src="horse.ogg" type="audio/ogg" />
+                            Your browser does not support the audio tag.
+                        </audio>
                     </div>
                 </div>
             </div>

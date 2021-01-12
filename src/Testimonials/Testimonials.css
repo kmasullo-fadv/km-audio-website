@@ -21,3 +21,9 @@
     font-size: 17px;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 375px){
+    .testimonialsH2 {
+        font-size: 25px;
+    }
+}
