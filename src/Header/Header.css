@@ -7,9 +7,9 @@ header {
     margin: auto;
 }
 
-#kmAudioLogo {
+#socraticLogo {
     margin: 0;
-    width: 34%;
+    width: 35%;
 }
 
 nav {
@@ -49,9 +49,9 @@ nav a:link {
         flex-direction: column;
         padding: 0;
     }
-    #kmAudioLogo {
+    #socraticLogo {
         width: 50%;
-        margin: 0 auto 30px auto;
+        margin: 0 auto;
     }
     nav {
         width: 100%;

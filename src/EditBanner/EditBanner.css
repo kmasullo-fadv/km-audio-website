@@ -1,0 +1,11 @@
+.editBannerDiv {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/tempPT.jpg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+}

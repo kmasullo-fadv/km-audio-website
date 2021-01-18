@@ -1,0 +1,90 @@
+.MixServicesDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/knobss.jpg');
+    height: fit-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+
+.servicesList {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 30px auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicesTopH2, .servicesTopH3 {
+    margin: 0 auto;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.servicesTopH2 {
+    font-size: 60px;
+}
+.servicesTopH3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.service {
+    width: 175px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.serviceH3{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+    .service{
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .servicesList {
+        grid-template-columns: 30% 30% 30%;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .servicesList {
+        grid-template-columns: 100%;
+    }
+    .service{
+        width: fit-content;
+        padding: 10px;
+    }
+    .servicesTopH2 {
+        font-size: 50px;
+    }
+    .servicesTopH3 {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .servicesTopH2 {
+        font-size: 40px;
+    }
+    .servicesTopH3 {
+        font-size: 20px;
+    }
+}

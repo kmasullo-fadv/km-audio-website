@@ -1,0 +1,52 @@
+.difBannerDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/condMic.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    text-align: center;
+}
+
+.difInnerDiv {
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.difMessage {
+    font-size: 20px;
+}
+
+#difH2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#difHearH2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.difPlayerDiv {
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 8px 1px rgb(189, 189, 189);
+    max-width: 800px;
+}
+
+.difPlayerDiv p {
+    margin: 0;
+    text-align: left;
+}
+
+.difPlayer {
+    width: 100%;
+    margin-bottom: 10px;
+}
