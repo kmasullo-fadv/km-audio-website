@@ -10,8 +10,8 @@ export default class Contact extends Component {
                         <form className="contactForm" action="https://formspree.io/xvowbnak" method="post">
                             <h2 className="center">Quote Request Form</h2>
                             <p className="center">
-                                Fill this form out if you would like to request a quote for your project. You 
-                                may also send general inquiries to K_Masullo@outlook.com
+                                Fill this form out if you would like to request a quote for your project and we will typically get back to you within 48 hours. You 
+                                may also send general inquiries to <strong>contact@socraticaudio.com</strong> if you'd like more info.
                             </p>
                             <label htmlFor="user-name">Name:</label>
                             <input className="hoverBorder" id="user-name" type="text" name="name" required />
