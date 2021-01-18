@@ -9,7 +9,8 @@ header {
 
 #socraticLogo {
     margin: 0;
-    width: 35%;
+    height: 151px;
+    width: 407.5px;
 }
 
 nav {
@@ -21,7 +22,7 @@ nav {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 500px;
+    min-width: 400px;
 }
 
 .navLink {
@@ -34,7 +35,7 @@ nav {
 }
 
 .navLink:hover {
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(80, 80, 80);
 }
 
 nav a:link {
@@ -50,11 +51,13 @@ nav a:link {
         padding: 0;
     }
     #socraticLogo {
-        width: 50%;
-        margin: 0 auto;
+        margin: auto;
+        height: 113.3px;
+        width: 305.6px;
     }
     nav {
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         position: relative;
     }
-} 
+}
