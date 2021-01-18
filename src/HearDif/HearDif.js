@@ -9,7 +9,7 @@ export default class HearDif extends Component {
                 <div className="difInnerDiv">
                         <h2 id='difH2'>Turn Your Recordings Into Awesome Productions</h2>
                         <p className='difMessage'>Whether your songs were recorded in your bedroom or on a $90,000 console, they need to be mixed. And if you want to take your career anywhere, they have to be mixed WELL.</p>
-                        <p className='difMessage'>Utilizing years of experience, professional gear and endless dedication, KM Audio Services will give your songs energy and clarity while maintaining your original vision.</p>
+                        <p className='difMessage'>Utilizing years of experience, professional gear and endless dedication, Socratic Audio will give your songs energy and clarity while maintaining your original vision.</p>
                     <div className="difPlayerDiv">
                         <h2 id='difHearH2'>Hear the Difference</h2>
                         <p>Before:</p>

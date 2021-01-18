@@ -16,11 +16,17 @@
     flex-direction: column;
 }
 
+@keyframes bannerMessageFadeIn {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
 #bannerMessage1,
 #bannerMessage2,
 #bannerButton{
-    opacity: 0;
-    animation-name: fadeIn;
+    opacity: 0.0;
+    animation-name: bannerMessageFadeIn;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;

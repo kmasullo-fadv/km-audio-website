@@ -8,6 +8,7 @@ import MixServices from '../MixServices/MixServices';
 import Testimonials from '../Testimonials/Testimonials';
 import Quote from '../Quote/Quote';
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 // import EditBanner from '../EditBanner/EditBanner'
 
 export default class App extends Component {
@@ -28,6 +29,7 @@ export default class App extends Component {
 
 
         <Route component={Contact} path='/' />
+        <Route component={Footer} path='/' />
       </div>
     )
   }

@@ -1,0 +1,12 @@
+.footerDiv {
+    height: fit-content;
+    margin: 0;
+    background-color: black;
+    padding: 20px 25%;
+}
+
+.footerP {
+    margin: 0;
+    text-align: left;
+    color: white;
+}
