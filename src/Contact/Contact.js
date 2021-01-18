@@ -56,7 +56,6 @@ export default class Contact extends Component {
                             <label id="messageLabel" htmlFor="user-message">Message:</label>
                             <textarea id="user-message" name="message" required></textarea>
                             <button className="formButton" type="submit">Submit</button>
-                            <p>You may also contact me directly at kameronmasullo@gmail.com</p>
                         </form>
                     </div>
             </div>
