@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './HearDif.css'
 
 export default class HearDif extends Component {
-
     render(){
         return(
             <div className="difBannerDiv">
@@ -13,7 +12,6 @@ export default class HearDif extends Component {
                     <div className="difPlayerDiv">
                         <h2 id='difHearH2'>Hear the Difference</h2>
                         <p>Before:</p>
-
                         <audio controls className='difPlayer'>
                             <source src={`${process.env.PUBLIC_URL}/mp3s/KameronMasullo-HospitalNoise-Unmixed.mp3`}  type="audio/mpeg" />
                             Your browser does not support the audio tag.
