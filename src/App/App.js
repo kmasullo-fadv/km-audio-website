@@ -1,36 +1,38 @@
-import React, { Component } from 'react';
+import React, { useRef } from 'react';
 import './App.css';
-import {Route} from 'react-router-dom';
 import Header from '../Header/Header';
 import MixBanner from '../MixBanner/MixBanner';
 import HearDif from '../HearDif/HearDif';
 import MixServices from '../MixServices/MixServices';
 import Testimonials from '../Testimonials/Testimonials';
 import Quote from '../Quote/Quote';
-import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
-// import EditBanner from '../EditBanner/EditBanner'
+import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
-export default class App extends Component {
-  render(){
-    return(
-      <div className="appDiv">
-        <Route component={Header} path='/'/>
+const App = () => {
 
-        {/* MIXING PAGE */}
-        <Route component={MixBanner} exact path='/' />
-        <Route component={HearDif} exact path='/' />
-        <Route component={MixServices} exact path='/' />
-        <Route component={Testimonials} exact path='/' />
-        <Route component={Quote} exact path='/' />
+    const contact = useRef(null);
 
-        {/* EDITING PAGE */}
-        {/* <Route component={EditBanner} exact path='/editing' /> */}
+    const scrollToContact = () => {
+        if (contact.current) {
+            contact.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
-
-        <Route component={Contact} path='/' />
-        <Route component={Footer} path='/' />
-      </div>
+    return (
+        <div className="appDiv">
+            <Header scrollToContact={ scrollToContact }/>
+            <MixBanner scrollToContact={ scrollToContact }/>
+            <HearDif />
+            <MixServices />
+            <Testimonials />
+            <Quote />
+            <div ref={contact}>
+                <Contact />
+            </div>
+            <Footer />
+        </div>
     )
-  }
 }
+
+export default App;

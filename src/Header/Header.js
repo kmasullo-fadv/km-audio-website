@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import React from 'react';
 import './Header.css';
 import socraticLogo from "../img/socraticLogo.png";
 
-export default class Header extends Component {
-    render(){
-        return(
+const Header = ({ scrollToContact }) => {
+        return (
             <header>
-                <img src={socraticLogo} alt="Socratic Audio" id="socraticLogo"></img>
+                <img src={socraticLogo} alt="Socratic Audio" id="socraticLogo" />
                 <nav>
-                    <Link to={'/'} className="navLink">Mixing</Link>
+                    <a className="navLink">Mixing</a>
                     {/* <Link to={'/editing'} className="navLink">Editing</Link> */}
-                    <Link to={'/contact'} className="navLink">Contact</Link>
+                    <a className="navLink" onClick={ scrollToContact }>Contact</a>
                 </nav>
             </header>
         )
-    }
 }
+
+export default Header;

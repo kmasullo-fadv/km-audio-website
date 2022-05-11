@@ -45,12 +45,9 @@
 
 #bannerMessage2{animation-delay: 0.2s;}
 
-.buttonLink {
+#bannerButton {
     margin: auto;
     margin-top: 150px;
-}
-
-#bannerButton {
     font-size: 30px;
     padding: 7px 30px;
     border: 2px solid rgb(0, 0, 0);
