@@ -1,6 +1,5 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef } from 'react';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
 import Header from '../Header/Header';
 import MixBanner from '../MixBanner/MixBanner';
 import HearDif from '../HearDif/HearDif';
